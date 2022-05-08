@@ -4,7 +4,7 @@ def calc_area(base, height):
     # process
     area = base * height / 2
     # output
-    print("the area is {}".format(area))
+    print("The area of the triangle is {}".format(area))
 
 
 def main():
@@ -12,10 +12,10 @@ def main():
 
     # input
     try:
-        base = float(input("what is base"))
-        height = float(input("what is height"))
+        base = float(input("What is the base of the triangle: "))
+        height = float(input("What is the height of the triangle: "))
     except ValueError:
-        print("input should be float")
+        print("Input should be float")
 
     # call functions
     calc_area(base, height)
